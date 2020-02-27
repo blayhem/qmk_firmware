@@ -167,7 +167,7 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(                                                                                                                                                                               \
         KC_GRV,      KC_1,     KC_2,     KC_3,     KC_4,     KC_5,     MC_6,     KC_7,     KC_8,     KC_9,     KC_0,     KC_MINS,  KC_EQL,             KC_BSLS,  RALT(KC_GRV),  TG(2),    \
         KC_TAB,            KC_Q,     KC_W,     KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,     KC_LBRC,  KC_RBRC,            KC_BSPC,                 KC_DEL,   \
-        LCTL_T(KC_ESC),    KC_A,     KC_S,     KC_D,     KC_F,     KC_G,     KC_H,     KC_J,     KC_K,     KC_L,     KC_SCLN,  MC_QUOT,  KC_NUHS,            KC_ENT,                  KC_PGUP,  \
+        LCTL_T(KC_ESC),    KC_A,     KC_S,     KC_D,     KC_F,     KC_G,     KC_H,     KC_J,     KC_K,     KC_L,     KC_SCLN,  KC_QUOT,  KC_NUHS,            KC_ENT,                  KC_PGUP,  \
         TD(TD_LSFT_CAPS),  KC_NUBS,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,  TD(TD_RSFT_CAPS),             KC_UP,         KC_PGDN,  \
         MO(2),             KC_LALT,  KC_LGUI,                            LT(1,KC_SPC),                               KC_RCTL,  KC_RALT,  KC_RGUI,            KC_LEFT,  KC_DOWN,       KC_RGHT   \
     ),
@@ -208,7 +208,7 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______, _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  \
         _______,  _______,  KC_UP,    _______,  _______,  _______,  _______,  KC_MEDIA_REWIND, KC_MPLY,  KC_MEDIA_FAST_FORWARD,  _______,  _______,  _______,  _______,            KC_WH_U,  \
         _______,  KC_LEFT,  KC_DOWN,  KC_RGHT,  _______,  _______,  _______,  KC__VOLDOWN, KC__VOLUP,  KC__MUTE,  _______,  _______,  _______,  _______,            KC_WH_D,  \
-        _______,  KC_WH_U,  KC_WH_D,  KC_BTN2,  KC_BTN1,  _______,  _______,  _______, _______,  _______,  _______,  _______,  KC_BTN1,            KC_MS_U,  KC_BTN2,  \
+        _______,  _______,  KC_WH_U,  KC_WH_D,  KC_BTN2,  KC_BTN1,  _______,  _______, _______,  _______,  _______,  _______,  KC_BTN1,            KC_MS_U,  KC_BTN2,  \
         _______,  _______,  _______,                                KC_SPC,                                _______,  _______,  _______,  KC_MS_L,  KC_MS_D,  KC_MS_R   \
     ),
 };
